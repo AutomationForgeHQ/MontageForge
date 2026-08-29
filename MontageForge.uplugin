@@ -1,7 +1,7 @@
 {
   "FileVersion": 3,
   "Version": 1,
-  "VersionName": "0.1.0\r",
+  "VersionName": "0.1.0",
   "FriendlyName": "MontageForge",
   "Description": "Turns animation sequences into playable montages: creates the asset, places gameplay-event notifies at authored times, and rebuilds from a recipe. Knows nothing about any game - the tags and the assignment to whatever plays the montage are yours.",
   "Category": "Content Pipeline",
