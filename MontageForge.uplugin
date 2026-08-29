@@ -1,0 +1,39 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0\r",
+  "FriendlyName": "MontageForge",
+  "Description": "Turns animation sequences into playable montages: creates the asset, places gameplay-event notifies at authored times, and rebuilds from a recipe. Knows nothing about any game - the tags and the assignment to whatever plays the montage are yours.",
+  "Category": "Content Pipeline",
+  "CreatedBy": "Blackcode",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MontageForge",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "MontageForgeEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit",
+      "TargetAllowList": [
+        "Editor"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true,
+      "Comment": "The notify sends a gameplay event, which is a GAS concept. Nothing else here needs it."
+    }
+  ]
+}
