@@ -24,6 +24,7 @@ public class MontageForgeEditor : ModuleRules
 				"UnrealEd",         // UAnimMontageFactory, asset creation
 				"AssetTools",
 				"AssetRegistry",
+				"AssetDefinition",  // UAssetDefinition, which decides what double-click opens
 				"Slate",
 				"SlateCore",
 			}
