@@ -8,7 +8,7 @@ locomotion, and sets its blends.
 animation  +  recipe  →  montage  →  you assign it to whatever plays it
 ```
 
-**Status: 0.2 — prototype quality, and proven.** Built and verified in a live editor: a recipe produces a
+**Status: 0.1 — prototype quality, and proven.** Built and verified in a live editor: a recipe produces a
 montage with notifies at authored positions, layering curves stamped, and blend settings applied; the
 result plays in game, drives an ability, and layers over locomotion. Capture reads timings back
 correctly.
@@ -33,7 +33,7 @@ clip; building the montage was the expensive part.
 The one thing here that is about *playing* rather than building is `EMontagePlayStyle` — whether the
 character can move while a montage runs. It lives in the runtime module because blocking movement
 input during an animation is an engine-level idea with no game knowledge in it, so anything that plays
-a montage can use it. See [PLAYBACK_PLAN.md](../MotionForge/PLAYBACK_PLAN.md).
+a montage can use it. See [PLAYBACK_PLAN.md](https://github.com/AutomationForgeHQ/MotionForge).
 
 ---
 
@@ -94,7 +94,7 @@ Create a **Montage Recipe** asset:
 
 Name it `MR_Something`; the montage comes out as `AM_Something`.
 
-Then build it — through the [MontageForgeToolset](../MontageForgeToolset/README.md) plugin from an
+Then build it — through the [MontageForgeToolset](https://github.com/AutomationForgeHQ/MontageForgeToolset) plugin from an
 agent, or from Blueprint/Python via `UMontageForgeSubsystem`.
 
 ### Tags
