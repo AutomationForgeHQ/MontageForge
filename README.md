@@ -1,3 +1,10 @@
+<!-- kovati:header -->
+<p align="center"><a href="https://kovati.dev/tools/montageforge/"><img src="https://raw.githubusercontent.com/AutomationForgeHQ/.github/main/profile/assets/montageforge.jpg" width="100%" alt="MontageForge, part of Kovati" /></a></p>
+
+<p align="center">Part of <a href="https://kovati.dev"><b>Kovati</b></a>, production tools for Unreal games · <a href="https://kovati.dev/animation/">Animation</a><br />
+<a href="https://kovati.dev/tools/montageforge/">Product page</a> · <a href="https://docs.kovati.dev">Documentation</a> · <a href="https://kovati.dev/download/">Install with the Kovati Hub</a> · <a href="https://kovati.dev/discord">Discord</a></p>
+<!-- /kovati:header -->
+
 # MontageForge
 
 Turns an animation sequence into a playable montage: creates the asset, puts it in a slot, places
